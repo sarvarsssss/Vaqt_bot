@@ -8,7 +8,6 @@ from loader import dp
 async def bot_help(message: types.Message):
     text = ("Buyruqlar: ",
             "/start - Botni ishga tushirish",
-            "/help - Yordam"
-            "/Namoz_Vaqti - Vaqtlarni ko'rish")
+            "Assalamu Alaykum \nBu bot orqali siz namoz vaqtlaini bilib olishingiz mumkin \nVa bu bot har kuni yangilangan vaqtni ko'rsatadi 😊😊😊",)
     
     await message.answer("\n".join(text))
